@@ -13,7 +13,7 @@ from utils2 import answer_query
 
 # Initialize API clients
 pc = Pinecone()
-index = pc.Index("aimigo-index")
+index = pc.Index("lacuchina-index")
 client = OpenAI()
 
 # Example query                                             #to get answer in cmd: """query = "Waar zit het notariskantoor? answer = "answer = answer_query(query, index, client), print(answer)"""
