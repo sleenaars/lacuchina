@@ -63,8 +63,7 @@ def build_prompt(query, results, conversation_history):
         ])
 
     prompt = f"""
-You are an AI assistant. Use ONLY the information below to answer the question.
-If the answer is not in the context, say "I don't have enough information. I am only allowed to answer questions about AIMIGO."
+You are an AI assistant. Please give a polite answer based on the information you received"
 
 {f'Conversation so far:\n{history_text}' if history_text else ''}
 
