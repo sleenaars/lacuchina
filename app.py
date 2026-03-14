@@ -13,7 +13,7 @@ CORS(app)
 
 # Initialize APIs
 pc = Pinecone()
-index = pc.Index("aimigo-index")
+index = pc.Index("lacuchina-index")
 client = OpenAI()
 
 #reset when page is reloaded
